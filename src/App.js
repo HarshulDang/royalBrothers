@@ -6,7 +6,7 @@ import {Image, CardDeck, Card,Navbar,Nav,NavDropdown,Button,Form,FormControl,Car
 class App extends Component {
   render() {
     return (
-      //<div className="card" style={{width:'90rem'}}>
+     
           <div>
             <div>
               <Navbar bg="dark" expand="lg">
@@ -25,7 +25,7 @@ class App extends Component {
                   <Nav className="mr-auto">
                     <Nav.Link href="#home" style={{color: 'white'}}>Home</Nav.Link>
                     <Nav.Link href="#link" style={{color: 'white'}}>Link</Nav.Link>
-                    <NavDropdown  title="Bikes In Bangalore" id="basic-nav-dropdown" style={{color: 'white'}}>
+                    <NavDropdown title="Bikes In Bangalore" id="basic-nav-dropdown" style={{color: 'white'}}>
                       <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -152,18 +152,35 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            
-              <div className="bg-dark" style={{display: "flex",flex:1,flexDirection:'column'}}>
-                    <Navbar sticky="bottom">
-                      <img  src={require("./images/logo.svg")} style={{width:'8%'}}/>
-                      <h1 className="text-white">{'Royal Brothers'}</h1>
-                      <Navbar.Collapse className="justify-content-center">
-                      <Navbar.Text>
-                        <h5 className="text-white">Company</h5>
-                      </Navbar.Text>
-                    </Navbar.Collapse>
-
-                  </Navbar>
+              <div className="bg-dark" style={{display: "flex",flexDirection:'column'}}>
+                <div className="col-12 col-md-10 offset-1">
+                  <Navbar sticky="bottom">
+                        <img  src={require("./images/logo.svg")} style={{width:'8%'}}/>
+                        <h1 className="text-white">{'Royal Brothers'}</h1>
+                        <Navbar.Collapse className="d-flex justify-content-around w-100 align-items-start">
+                          <Navbar.Text className="d-flex flex-column text-white">
+                            <h4>COMPANY</h4>
+                            <span>FAQ</span>
+                            <span>Privacy Policy</span>
+                            <span>Terms and Condition</span>
+                          </Navbar.Text>
+                          <Navbar.Text className="d-flex flex-column mt-4 text-white">
+                            <span>Tariff</span>
+                            <span>Partner with us</span>
+                            <span>Reach Us</span>
+                            <span>About Us</span>
+                            <span>Sitemap</span>
+                          </Navbar.Text>
+                          <Navbar.Text className="d-flex flex-column text-white">
+                            <h4>FOLLOW</h4>
+                            <span>Facebook</span>
+                            <span>Twitter</span>
+                            <span>Instagram</span>
+                            <span>Linkedin</span>
+                          </Navbar.Text>
+                        </Navbar.Collapse>
+                    </Navbar>
+                </div>
               </div>
           </div>
     );
