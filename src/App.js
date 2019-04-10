@@ -43,24 +43,24 @@ class App extends Component {
             <div style={{display:'flex',flex:0.8,flexDirection:'row',justifyContent:'center', backgroundColor:'#D3D3D3'}}>
               <div style={{display:'flex',flex:0.8,flexDirection:'row'}}>
                 <CardDeck style={{paddingTop: '3%'}}>
-                  <Card style={{backgroundColor: 'grey', height:'70%', width:'20rem'}}>
+                  <Card style={{backgroundColor: 'grey', height:'80%', width:'20rem'}}>
                     <Card.Body>
-                      <Card.Title>Card title</Card.Title>
+                      <Card.Title>40+ <br/>CITIES</Card.Title>
                     </Card.Body>
                   </Card>
-                  <Card style={{backgroundColor: 'grey', height:'70%', width:'20rem'}}>
+                  <Card style={{backgroundColor: 'grey', height:'80%', width:'20rem'}}>
                     <Card.Body>
-                      <Card.Title style={{alignItems:'top'}}>Card title</Card.Title>
+                      <Card.Title>5 M <br/>KILOMETERS</Card.Title>
                     </Card.Body>
                   </Card>
-                  <Card style={{backgroundColor: 'grey', height:'70%', width:'20rem'}}>
+                  <Card style={{backgroundColor: 'grey', height:'80%', width:'20rem'}}>
                     <Card.Body>
-                      <Card.Title>Card title</Card.Title>
+                      <Card.Title>4.6 * <br/>ON FACEBOOK</Card.Title>
                     </Card.Body>
                   </Card>
-                  <Card style={{backgroundColor: 'grey', height:'70%', width:'20rem'}}>
+                  <Card style={{backgroundColor: 'grey', height:'80%', width:'20rem'}}>
                     <Card.Body>
-                      <Card.Title>Card title</Card.Title>
+                      <Card.Title>4.5 * <br/>ON GOOGLE</Card.Title>
                     </Card.Body>
                   </Card>
                 </CardDeck>
@@ -72,71 +72,99 @@ class App extends Component {
                 <CardColumns>
                     <Card border="white">
                       <Card.Body>
-                        <Card.Title>Card title that wraps to a new line</Card.Title>
+                        <Card.Title><h1 className="text-center" style={{color:'yellow'}}>1</h1>First RTO Authorised bike rental</Card.Title>
                       </Card.Body>
                     </Card>
                     <Card className="p-3" border="white">
                       <Card.Body>
-                        <Card.Title>Card title that wraps to a new line</Card.Title>
+                        <Card.Title><h1 className="text-center" style={{color:'yellow'}}>4</h1>Bikes in top notch condition</Card.Title>
                       </Card.Body>
                     </Card>
                     <Card border="white">
                       <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title><h1 className="text-center" style={{color:'yellow'}}>2</h1>Timely pick up and drop off</Card.Title>
                       </Card.Body>
                     </Card>
                     <Card className="text-center p-3" border="white">
                       <Card.Body>
-                        <Card.Title>Card title that wraps to a new line</Card.Title>
+                        <Card.Title><h1 className="text-center" style={{color:'yellow'}}>5</h1>Commercial insurance is covered</Card.Title>
                       </Card.Body>
                     </Card>
                     <Card className="text-center" border="white">
                       <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title><h1 className="text-center" style={{color:'yellow'}}>3</h1>Most trusted & transparent process</Card.Title>
                       </Card.Body>
                     </Card>
                     <Card border="white">
                       <Card.Body>
-                        <Card.Title>Card title that wraps to a new line</Card.Title>
+                        <Card.Title><h1 className="text-center" style={{color:'yellow'}}>6</h1>19 pickup locations in Bangalore</Card.Title>
                       </Card.Body>
                     </Card>
                   </CardColumns>
               </div>
             </div>
 
-            <div style={{display:'flex',flex:0.8,flexDirection:'row',justifyContent:'center', backgroundColor:'#D3D3D3'}}>
-              <div style={{display:'flex',flex:0.8,flexDirection:'row'}}>        
-                  <CardColumns>
-                    <Card style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike1.jpg")}/>
-                    </Card>
-                    <Card className="p-3" style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike2.jpg")}/>
-                    </Card>
-                    <Card style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike3.jpg")}/>
-                    </Card>
-                    <Card className="text-center p-3" style={{width: '55%'}}>
-                       <Card.Img variant="top" src={require("./images/bike2.jpg")}/>
-                    </Card>
-                    <Card className="text-center" style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike2.jpg")}/>
-                    </Card>
-                    <Card style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike2.jpg")}/>
-                    </Card>
-                    <Card style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike1.jpg")}/>
-                    </Card>
-                    <Card className="p-3" style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike2.jpg")}/>
-                    </Card>
-                    <Card style={{width: '55%'}}>
-                      <Card.Img variant="top" src={require("./images/bike3.jpg")}/>
-                    </Card>
-                  </CardColumns>
-             </div>
+            <div style={{display: "flex",flex:1,justifyContent:"center", backgroundColor:'#D3D3D3'}}>
+              <div style={{display: "flex",flex:0.9,flexDirection:'column'}}>
+                 <h2 className="text-center">OUR FLEET</h2>
+                 <br/>
+                <div style={{display: "flex",flex:1,flexDirection:'row',justifyContent:"center"}}>        
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike1.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike2.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike3.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                      <Card.Img variant="top" src={require("./images/bike4.jpg")}/>
+                  </Card>
+                </div>
+                <div style={{display: "flex",flex:1,flexDirection:'row',justifyContent:"center"}}>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike5.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike6.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike7.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike8.jpg")}/>
+                  </Card>
+                </div>
+                <div style={{display: "flex",flex:1,flexDirection:'row',justifyContent:"center"}}>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike9.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike10.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike11.jpg")}/>
+                  </Card>
+                  <Card style={{width: "100%"}}>
+                    <Card.Img variant="top" src={require("./images/bike12.jpg")}/>
+                  </Card>
+                </div>
+              </div>
             </div>
+            
+              <div className="bg-dark" style={{display: "flex",flex:1,flexDirection:'column'}}>
+                    <Navbar sticky="bottom">
+                      <img  src={require("./images/logo.svg")} style={{width:'8%'}}/>
+                      <h1 className="text-white">{'Royal Brothers'}</h1>
+                      <Navbar.Collapse className="justify-content-center">
+                      <Navbar.Text>
+                        <h5 className="text-white">Company</h5>
+                      </Navbar.Text>
+                    </Navbar.Collapse>
+
+                  </Navbar>
+              </div>
           </div>
     );
   }
